@@ -1,0 +1,73 @@
+# Satellite Command System
+
+## Project Overview
+The **Satellite Command System** is a console-based application that simulates the control of a satellite in orbit. Users can issue commands to rotate the satellite, activate/deactivate solar panels, and collect data. The application emphasizes the use of design patterns, SOLID principles, and clean, maintainable code.
+
+The satellite starts in a default state:
+- **Orientation**: North
+- **Solar Panels**: Inactive
+- **Data Collected**: 0 units
+
+### Features
+- Rotate the satellite to different orientations (North, South, East, or West).
+- Activate or deactivate the solar panels.
+- Collect data only when the solar panels are active.
+- Data resets to 0 when solar panels are deactivated.
+
+### Design Patterns Used
+- **Command Pattern**: Encapsulates each action (rotate, activate panels, etc.) as a command, promoting separation of concerns.
+- **State Pattern**: Manages the satellite's different states (orientation, solar panels, and data collection).
+- **SOLID Principles**: Adherence to best practices ensuring scalability and maintainability.
+
+## Getting Started
+
+### Prerequisites
+- **Java Development Kit (JDK)** 8 or higher.
+- Git for version control.
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone <repository-link>
+   cd SatelliteCommandSystem
+
+### README for Exercise 1: Demonstrating Design Patterns
+
+```markdown
+# Design Patterns Demonstration
+
+## Project Overview
+This project showcases six different design patterns through six creative use cases. The goal is to demonstrate proficiency in design patterns, adherence to SOLID principles, and producing maintainable code. The project includes two behavioral patterns, two creational patterns, and two structural patterns.
+
+### Behavioral Design Patterns
+1. **Observer Pattern**
+   - **Use Case**: An event management system where observers (users) subscribe to event updates. When an event is updated, all subscribed users are notified.
+   
+2. **Command Pattern**
+   - **Use Case**: A remote control system where each button press corresponds to a command object (e.g., light on/off, fan speed control). Each action is encapsulated as a command, allowing for flexible control.
+
+### Creational Design Patterns
+1. **Singleton Pattern**
+   - **Use Case**: A database connection manager where only one instance of the database connection exists across the application, ensuring efficient resource management.
+   
+2. **Factory Pattern**
+   - **Use Case**: A shape factory that generates different shapes (Circle, Square, Triangle) based on user input. The factory encapsulates the object creation logic, simplifying object creation for clients.
+
+### Structural Design Patterns
+1. **Adapter Pattern**
+   - **Use Case**: A media player application where different media formats (MP3, MP4, AVI) are adapted to a standard interface, allowing seamless playback regardless of format.
+   
+2. **Decorator Pattern**
+   - **Use Case**: A coffee shop billing system where additional features (e.g., milk, sugar, cream) are dynamically added to the base coffee object, allowing flexible billing calculations.
+
+## Getting Started
+
+### Prerequisites
+- **Java Development Kit (JDK)** 8 or higher.
+- Git for version control.
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone <repository-link>
+   cd DesignPatternsDemo
