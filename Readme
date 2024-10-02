@@ -19,17 +19,13 @@ The satellite starts in a default state:
 - **State Pattern**: Manages the satellite's different states (orientation, solar panels, and data collection).
 - **SOLID Principles**: Adherence to best practices ensuring scalability and maintainability.
 
-## Getting Started
 
 ### Prerequisites
 - **Java Development Kit (JDK)** 8 or higher.
 - Git for version control.
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone <repository-link>
-   cd SatelliteCommandSystem
+
+
 
 ### README for Exercise 1: Demonstrating Design Patterns
 
@@ -66,8 +62,3 @@ This project showcases six different design patterns through six creative use ca
 - **Java Development Kit (JDK)** 8 or higher.
 - Git for version control.
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone <repository-link>
-   cd DesignPatternsDemo
